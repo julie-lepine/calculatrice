@@ -1,0 +1,52 @@
+/******** MAIN ********/
+main {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+    margin: 2% 30%;
+    background-color: rgba(226, 226, 225, 0.726);
+}
+
+.container {
+    border: 1px solid black;
+    padding: 2%;
+    background-color: white;
+}
+
+.input1, .input2, .calculs {
+    margin: 2% 0;
+}
+
+.calculs {
+    margin-top: 5%;
+}
+
+.calculs button {
+    margin: 1%;
+}
+
+#output { 
+    border: 1px solid black; 
+    margin: 5% 0 3% 0;
+    padding: 1%;
+}
+
+
+/******** RESPONSIVE ********/
+@media screen and (max-width: 992px) {
+    main {
+        margin: 2% 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        margin: 2% 10%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    main {
+        margin: 2% 5%;
+    }
+}
